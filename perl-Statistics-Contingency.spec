@@ -25,7 +25,8 @@ Summary(zh_CN):	Statistics::Contingency Perl Ä£¿é
 Name:		perl-Statistics-Contingency
 Version:	0.06
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	270d65583f053b078af90359011fb5c9
