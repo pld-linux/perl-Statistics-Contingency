@@ -23,7 +23,7 @@ Summary(sv):	Statistics::Contingency Perlmodul
 Summary(uk):	Модуль для Perl Statistics::Contingency
 Summary(zh_CN):	Statistics::Contingency Perl дё©И
 Name:		perl-Statistics-Contingency
-Version:	0.04
+Version:	0.05
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
