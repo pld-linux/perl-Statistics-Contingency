@@ -1,6 +1,7 @@
 #
 # Conditional build:
-# _with_tests - perform "make test" (needs working, not busy /dev/audio!)
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Statistics
 %define		pnam	Contingency
@@ -22,8 +23,8 @@ Summary(sv):	Statistics::Contingency Perlmodul
 Summary(uk):	Модуль для Perl Statistics::Contingency
 Summary(zh_CN):	Statistics::Contingency Perl дё©И
 Name:		perl-Statistics-Contingency
-Version:	0.02
-Release:	2
+Version:	0.04
+Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -53,7 +54,7 @@ przydatne rСwnie© w innych sytuacjach.
 perl Makefile.PL
 %{__make}
 
-%{?_with_tests:%{__make} test}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
