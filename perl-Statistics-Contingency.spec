@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Statistics::Contingency
 Summary(it):	Modulo di Perl Statistics::Contingency
 Summary(ja):	Statistics::Contingency Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Statistics::Contingency ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Statistics::Contingency
+Summary(nb):	Perlmodul Statistics::Contingency
 Summary(pl):	Modu³ Perla Statistics::Contingency
 Summary(pt):	Módulo de Perl Statistics::Contingency
 Summary(pt_BR):	Módulo Perl Statistics::Contingency
