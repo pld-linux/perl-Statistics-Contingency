@@ -23,7 +23,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Statistics::Contingency
 Summary(zh_CN):	Statistics::Contingency Perl Ä£¿é
 Name:		perl-Statistics-Contingency
 Version:	0.02
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -34,17 +34,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The Statistics::Contingency module helps you calculate several useful
-statistical measures based on 2x2 "contingency tables". I use these
-measures to help judge the results of automatic text categorization
-experiments, but they are useful in other situations as well.
+statistical measures based on 2x2 "contingency tables". The author
+uses these measures to help judge the results of automatic text
+categorization experiments, but they are useful in other situations as
+well.
 
 %description -l pl
-#Modu³ Statistics::Contingency jest pomocny przy obliczaniu kilku
-#przydatnych miar(?) statystycznych opartych o "tablice 
-#ewentualno¶ci(?)" rozmiaru 2x2. U¿ywam tych miar, aby pomóc
-#rozstrzygn±æ w przypadku wyników eksperymentów z automatyczn±
-#klasyfikacj± tekstu, lecz s± one przydatne równie¿ w innych
-#sytuacjach.
+Modu³ Statistics::Contingency jest pomocny przy obliczaniu kilku
+przydatnych miar statystycznych opartych o "tablice wielodzielcze"
+rozmiaru 2x2. Autor modu³u u¿ywa tych miar jako pomocy przy ocenie
+wyników eksperymentów z automatyczn± klasyfikacj± tekstu, lecz s± one
+przydatne równie¿ w innych sytuacjach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
