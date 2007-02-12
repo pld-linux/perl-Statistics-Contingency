@@ -6,22 +6,22 @@
 %define		pdir	Statistics
 %define		pnam	Contingency
 Summary:	Statistics::Contingency Perl module
-Summary(cs):	Modul Statistics::Contingency pro Perl
-Summary(da):	Perlmodul Statistics::Contingency
-Summary(de):	Statistics::Contingency Perl Modul
-Summary(es):	MÛdulo de Perl Statistics::Contingency
-Summary(fr):	Module Perl Statistics::Contingency
-Summary(it):	Modulo di Perl Statistics::Contingency
-Summary(ja):	Statistics::Contingency Perl •‚•∏•Â°º•Î
-Summary(ko):	Statistics::Contingency ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Statistics::Contingency
-Summary(pl):	Modu≥ Perla Statistics::Contingency
-Summary(pt):	MÛdulo de Perl Statistics::Contingency
-Summary(pt_BR):	MÛdulo Perl Statistics::Contingency
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::Contingency
-Summary(sv):	Statistics::Contingency Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::Contingency
-Summary(zh_CN):	Statistics::Contingency Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Statistics::Contingency pro Perl
+Summary(da.UTF-8):   Perlmodul Statistics::Contingency
+Summary(de.UTF-8):   Statistics::Contingency Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Statistics::Contingency
+Summary(fr.UTF-8):   Module Perl Statistics::Contingency
+Summary(it.UTF-8):   Modulo di Perl Statistics::Contingency
+Summary(ja.UTF-8):   Statistics::Contingency Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Statistics::Contingency ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Statistics::Contingency
+Summary(pl.UTF-8):   Modu≈Ç Perla Statistics::Contingency
+Summary(pt.UTF-8):   M√≥dulo de Perl Statistics::Contingency
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Statistics::Contingency
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::Contingency
+Summary(sv.UTF-8):   Statistics::Contingency Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::Contingency
+Summary(zh_CN.UTF-8):   Statistics::Contingency Perl Ê®°Âùó
 Name:		perl-Statistics-Contingency
 Version:	0.06
 Release:	2
@@ -42,12 +42,12 @@ uses these measures to help judge the results of automatic text
 categorization experiments, but they are useful in other situations as
 well.
 
-%description -l pl
-Modu≥ Statistics::Contingency jest pomocny przy obliczaniu kilku
+%description -l pl.UTF-8
+Modu≈Ç Statistics::Contingency jest pomocny przy obliczaniu kilku
 przydatnych miar statystycznych opartych o "tablice wielodzielcze"
-rozmiaru 2x2. Autor modu≥u uøywa tych miar jako pomocy przy ocenie
-wynikÛw eksperymentÛw z automatyczn± klasyfikacj± tekstu, lecz s± one
-przydatne rÛwnieø w innych sytuacjach.
+rozmiaru 2x2. Autor modu≈Çu u≈ºywa tych miar jako pomocy przy ocenie
+wynik√≥w eksperyment√≥w z automatycznƒÖ klasyfikacjƒÖ tekstu, lecz sƒÖ one
+przydatne r√≥wnie≈º w innych sytuacjach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
