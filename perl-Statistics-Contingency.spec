@@ -6,22 +6,22 @@
 %define		pdir	Statistics
 %define		pnam	Contingency
 Summary:	Statistics::Contingency Perl module
-Summary(cs.UTF-8):   Modul Statistics::Contingency pro Perl
-Summary(da.UTF-8):   Perlmodul Statistics::Contingency
-Summary(de.UTF-8):   Statistics::Contingency Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Statistics::Contingency
-Summary(fr.UTF-8):   Module Perl Statistics::Contingency
-Summary(it.UTF-8):   Modulo di Perl Statistics::Contingency
-Summary(ja.UTF-8):   Statistics::Contingency Perl モジュール
-Summary(ko.UTF-8):   Statistics::Contingency 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Statistics::Contingency
-Summary(pl.UTF-8):   Moduł Perla Statistics::Contingency
-Summary(pt.UTF-8):   Módulo de Perl Statistics::Contingency
-Summary(pt_BR.UTF-8):   Módulo Perl Statistics::Contingency
-Summary(ru.UTF-8):   Модуль для Perl Statistics::Contingency
-Summary(sv.UTF-8):   Statistics::Contingency Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Statistics::Contingency
-Summary(zh_CN.UTF-8):   Statistics::Contingency Perl 模块
+Summary(cs.UTF-8):	Modul Statistics::Contingency pro Perl
+Summary(da.UTF-8):	Perlmodul Statistics::Contingency
+Summary(de.UTF-8):	Statistics::Contingency Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Statistics::Contingency
+Summary(fr.UTF-8):	Module Perl Statistics::Contingency
+Summary(it.UTF-8):	Modulo di Perl Statistics::Contingency
+Summary(ja.UTF-8):	Statistics::Contingency Perl モジュール
+Summary(ko.UTF-8):	Statistics::Contingency 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Statistics::Contingency
+Summary(pl.UTF-8):	Moduł Perla Statistics::Contingency
+Summary(pt.UTF-8):	Módulo de Perl Statistics::Contingency
+Summary(pt_BR.UTF-8):	Módulo Perl Statistics::Contingency
+Summary(ru.UTF-8):	Модуль для Perl Statistics::Contingency
+Summary(sv.UTF-8):	Statistics::Contingency Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Statistics::Contingency
+Summary(zh_CN.UTF-8):	Statistics::Contingency Perl 模块
 Name:		perl-Statistics-Contingency
 Version:	0.06
 Release:	2
