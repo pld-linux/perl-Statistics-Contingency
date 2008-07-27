@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Statistics::Contingency
 Summary(zh_CN.UTF-8):	Statistics::Contingency Perl 模块
 Name:		perl-Statistics-Contingency
 Version:	0.06
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
