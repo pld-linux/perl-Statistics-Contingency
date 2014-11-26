@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	Contingency
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Contingency Perl module
 Summary(cs.UTF-8):	Modul Statistics::Contingency pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::Contingency
@@ -30,6 +30,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	cce8988a99de785b7df66ed174138b15
+URL:		http://search.cpan.org/dist/Statistics-Contingency/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
