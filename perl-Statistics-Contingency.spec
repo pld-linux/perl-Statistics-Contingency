@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	Contingency
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::Contingency Perl module
 Summary(cs.UTF-8):	Modul Statistics::Contingency pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::Contingency
