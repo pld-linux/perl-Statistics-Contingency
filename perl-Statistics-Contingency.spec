@@ -22,16 +22,19 @@ Summary(sv.UTF-8):	Statistics::Contingency Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Statistics::Contingency
 Summary(zh_CN.UTF-8):	Statistics::Contingency Perl 模块
 Name:		perl-Statistics-Contingency
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	cce8988a99de785b7df66ed174138b15
+# Source0-md5:	ecdaed019d0691ab463667ec760b069f
 URL:		http://search.cpan.org/dist/Statistics-Contingency/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Params-Validate
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
